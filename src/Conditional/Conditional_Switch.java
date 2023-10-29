@@ -6,7 +6,7 @@ public class Conditional_Switch {
 		// Switch statement
 		/*syntax
 		 * 
-		 * switch(value)
+		 * switch(variable)
 		 * {
 		 * case 1:
 		 *statement;
@@ -32,9 +32,34 @@ public class Conditional_Switch {
 		 *  ->Switch can also have default
 		 *  ->default will act like else
 		 *  -> If none of the cases are matching then default will get executed.
+		 *  
 		 */
 		
-
+              // program to find vowels and consonents
+		char c= 'b';
+		System.out.println("the given character is");
+		switch(c)
+		{
+		case 'a': 
+			System.out.println(c +"  is vowel");
+			break;
+		case 'e':
+			System.out.println(c +"  is vowel");
+			break;
+		case 'i':
+			System.out.println(c +"  is vowel");
+			break;
+		case 'o':
+			System.out.println(c +"  is vowel");
+			break;
+		case 'u':
+			System.out.println(c +"  is vowel");
+			break;
+		default:
+				System.out.println(c +" is consonant");
+		}
+		
+		
 	}
 
 }
