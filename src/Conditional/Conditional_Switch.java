@@ -38,7 +38,8 @@ public class Conditional_Switch {
               // program to find vowels and consonents
 		char c= 'b';
 		System.out.println("the given character is");
-		switch(c)
+		switch('b')// we can use value or variable inside switch for  condition'
+		// OR switch(c)
 		{
 		case 'a': 
 			System.out.println(c +"  is vowel");
