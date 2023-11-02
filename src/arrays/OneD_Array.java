@@ -18,6 +18,7 @@ public class OneD_Array {
 		}
 		//Syntax2
 		int array1[]=new int[5];
+		
 		array1[0]=9;
 		array1[1]=2;
 		array1[2]=6;
@@ -54,6 +55,36 @@ public class OneD_Array {
 		}
 		}
 		System.out.println("Smallest element in the array is :---->"+min);
+		
+		// Addition of elements in an Array
+		
+		int arr[]= {500,3,5,7,89,23};
+		int sum=0;
+		for(int i=0;i<arr.length;i++)
+		{
+			sum=sum+arr[i];
+			
+				
+			
+		}
+		System.out.println("Addition of Array elements---->"+sum);
+		
+		//substraction of Array elements
+		int sub=arr[0]; 
+		int mul=arr[0];
+		float div=arr[0];
+		for(int i=1;i<arr.length;i++)
+		{
+			sub=sub-arr[i];
+			mul=mul*arr[i];
+			
+			div=div/arr[i];
+				
+			
+		}
+		System.out.println("sub of Array elements---->"+sub);
+		System.out.println("mul of Array elements---->"+mul);
+		System.out.println("div of Array elements---->"+div);
 	}
 
 }
