@@ -38,7 +38,8 @@ public class Interface {
 	 Shopping obj= new Shopping();
 		obj.cart();
 		obj.wishlist();
-		obj.Checkout();// by using object reference we can access both static and non static members and methods
+		obj.Checkout();
+		// by using object reference we can access both static and non static members and methods
 		
 		System.out.println(obj.username);
 		System.out.println(flipkart.username);
